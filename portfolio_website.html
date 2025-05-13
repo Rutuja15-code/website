@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rutuja Kalaskar| Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(-45deg, #f8b500, #fceabb, #ffecd2, #fcb69f);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #333;
+      line-height: 1.6;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #444;
+      margin: 1rem 0;
+    }
+    .summary {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 2rem 2rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid #333;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #333;
+      transition: all 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #333;
+      color: white;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #0077cc;
+      text-decoration: none;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    .contact {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Rutuja Kalaskar</h1>
+    <p>Data Analyst | Insight-Driven | Problem Solver</p>
+    <div class="summary">
+      <p>Detail-oriented and results-driven Data Analyst with hands-on experience in data visualization, statistical analysis, and transforming data into actionable insights. Skilled in SQL, Python, Power BI, and Excel. Passionate about helping businesses grow through data-informed decision-making.</p>
+    </div>
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/rutuja-kalaskar">LinkedIn</a>
+      <a href="https://github.com/Rutuja15-code">GitHub</a>
+      
+    </div>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <h2>Sales Dashboard</h2>
+      <p>Built an interactive dashboard in Power BI for real-time sales KPIs and performance metrics.</p>
+      <a href="https://example.com/sales-dashboard" target="_blank">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Customer Churn Analysis</h2>
+      <p>Used Python and ML models to identify churn patterns and improve customer retention rates.</p>
+      <a href="https://example.com/churn-analysis" target="_blank">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Marketing Campaign Insights</h2>
+      <p>Analyzed campaign data using SQL to measure ROI and recommend optimized strategies.</p>
+      <a href="https://example.com/marketing-insights" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Let's Connect</h2>
+    <p>Open to exciting data roles and freelance projects. Feel free to reach out!</p>
+    <a class="buttons" href="rutujakalaskar15@gmail.com">Contact Me</a>
+  </section>
+
+  <script>
+    // Simple alert animation (optional JS)
+    document.querySelector('.contact a').addEventListener('click', function(e) {
+      e.preventDefault();
+      alert("Thank you for your interest! Please reach me via LinkedIn or Email.");
+    });
+  </script>
+</body>
+</html>
